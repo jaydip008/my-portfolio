@@ -950,7 +950,7 @@ button.mfp-close:hover {
   z-index: 1;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(90deg, rgba(0, 74, 173, 1) 0%, rgba(203, 108, 230, 1) 100%);;
+  background: linear-gradient(125deg, rgba(0, 74, 173, 1) 0%, rgba(203, 108, 230, 1) 100%);
   padding: 30px;
   border-radius: 0.5em;
 }
@@ -1801,7 +1801,7 @@ body.loaded:after {
       }
 }
 .text-gradient {
-  background: -webkit-linear-gradient(45deg, #7bc6ff 0%, #3683ff 50%, #01174f 100%);
+  background: -webkit-linear-gradient(125deg, rgba(0, 74, 173, 1) 0%, rgba(203, 108, 230, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
