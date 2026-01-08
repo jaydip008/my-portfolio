@@ -612,7 +612,7 @@ button:active {
   padding: 16px 60px 16px 42px;
 }
 .button-dot.button-white:before {
-  background: #8fc2fc;
+  background: #021427;
 }
 .button-dot.button-white:hover:before {
   opacity: 0.8;
