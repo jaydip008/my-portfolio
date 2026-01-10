@@ -1365,22 +1365,22 @@ button.mfp-close:hover {
 }
 @media (min-width: 992px) {
   .header .header-wrapper {
-    padding: 0 20px;
+    padding: 0 16px;
   }
 }
 @media (min-width: 1200px) {
   .header .header-wrapper {
-    padding: 0 30px;
+    padding: 0 16px;
   }
 }
 @media (min-width: 1600px) {
   .header .header-wrapper {
-    padding: 0 40px;
+    padding: 0 16px;
   }
 }
 @media (min-width: 1920px) {
   .header .header-wrapper {
-    padding: 0 50px;
+    padding: 0 16px;
   }
 }
 @media (max-width: 1199.98px) {
