@@ -1252,10 +1252,11 @@ button.mfp-close:hover {
   z-index: 991;
   padding: 20px 0;
   text-align: center;
-  background-color: #021427e0;
+  background-color: #021427eb;
   margin: 16px;
   border-radius: 130px;
   border: 1px dashed #8bbef4;
+  backdrop-filter: blur(10px);
 }
 .header .container-fluid {
   padding: 0 10px;
