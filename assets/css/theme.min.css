@@ -1023,17 +1023,17 @@ button.mfp-close:hover {
   }
   .service-box .service-order {
     display: inline-flex;
-    width: 15%;
+    width: 10%;
   }
   .service-box .service-title {
     display: inline-flex;
-    width: 40%;
+    width: 35%;
     align-items: center;
     padding-right: 24px;
   }
   .service-box .service-text {
     display: inline-flex;
-    width: 45%;
+    width: 50%;
   }
 }
 .testimonial-slider {
