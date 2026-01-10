@@ -1252,21 +1252,9 @@ button.mfp-close:hover {
   z-index: 991;
   padding: 20px 0;
   text-align: center;
-  background-color: #021427c7;
-  filter: blur(10px);
-}
-.header:after{
   background-color: #021427e0;
-  filter: blur(3px);
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 0;
+  margin: 16px;
+  border-radius: 130px;
 }
 .header .container-fluid {
   padding: 0 10px;
