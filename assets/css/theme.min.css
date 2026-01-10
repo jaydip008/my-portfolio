@@ -1255,7 +1255,7 @@ button.mfp-close:hover {
   background-color: #021427c7;
   filter: blur(10px);
 }
-.header:before{
+.header:after{
   background-color: #021427e0;
   filter: blur(3px);
   position: absolute;
