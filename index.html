@@ -3,21 +3,33 @@
 <head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="">
+		<meta name="description" content="Jaydip Bhut – WordPress & front-end developer building fast, responsive websites. Explore completed projects, logo designs and get in touch.">
         <meta name="keywords" content="">
-		<title>jaydip portfolio</title>
+		<title>Jaydip Bhut | Web Developer Portfolio</title>
 		<!-- Favicon -->
-        <link href="assets/images/favicon.png" rel="shortcut icon">
+        <link rel="icon" href="favicon.ico" sizes="any">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="assets/images/favicon-512.png">
+        <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+        <meta name="theme-color" content="#04070a">
 		<!-- CSS -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 		<link href="assets/css/magnific-popup.min.css" rel="stylesheet">
 		<link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
 		<link href="assets/css/theme.min.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 		<!-- Fonts/Icons -->
 		<link href="assets/plugins/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 		<link href="assets/css/all.css" rel="stylesheet">
+		<!-- Modern design layer (loads last) -->
+		<link href="assets/css/modern.css" rel="stylesheet">
 	</head>
 	<body data-preloader="true">
+
+		<!-- Background glow -->
+		<div class="bg-glow" aria-hidden="true"><span></span><span></span><span></span></div>
 
 		<!-- Cursor -->
 		<div id="cursor"></div>
@@ -29,7 +41,7 @@
 				<div class="header-wrapper">
 					<!-- Header Logo -->
 					<div class="header-logo">
-						<h2>Portfolio</h2>
+						<a href="#about" class="brand-mark"><span>JB</span><b>jaydip<em>.dev</em></b></a>
 					</div>
 					<!-- Header Nav -->
 					<div class="header-nav">
@@ -70,7 +82,13 @@
 				<div class="container text-center">
 					<div class="row">
 						<div class="col-12">
-							<h4 class="hero-heading display-1 fw-bold mb-0 stroke-text">Hi There, I'm <br> Jaydip Bhut</h4>
+							<span class="hero-badge"><span class="dot"></span><span class="mono">status:</span> available_for_projects</span>
+							<h1 class="hero-heading display-1 fw-bold mb-0"><span class="stroke-text">Hi There, I'm</span><br><span class="text-gradient">Jaydip Bhut</span><span class="caret" aria-hidden="true">_</span></h1>
+							<p class="hero-sub">WordPress &amp; Front-end Developer crafting fast, responsive websites — now exploring DevOps.</p>
+							<div class="hero-cta">
+								<a href="#portfolio" class="btn-modern btn-primary-modern">View Projects <i class="bi bi-arrow-down-right"></i></a>
+								<a href="#contact" class="btn-modern btn-ghost-modern">Let's Talk</a>
+							</div>
 						</div>
 					</div><!-- end row -->
 				</div><!-- end container -->
@@ -83,7 +101,7 @@
 					<div class="col-12 col-lg-4 order-lg-2 text-center">
 						<!-- Hero Avatar -->
 						<div class="hero-avatar">
-							<img src="assets/images/my-profile-pic.png" data-rjs="2" alt="">
+							<img src="assets/images/my-profile-pic-neon.png" data-rjs="2" alt="Jaydip Bhut">
 						</div>
 						<!-- end Hero Avatar -->
 					</div>
@@ -101,12 +119,12 @@
 									<li>JS</li>
 									<li>Wordpress</li>
 								</ul>
-								</br>
+								<br>
 								<h6 class="sm-heading">Version Control</h6>
 								<ul class="list-inline-dot">
 									<li>Git</li>
 								</ul>
-							</br>
+							<br>
 								<h6 class="sm-heading">Platforms & Tools</h6>
 								<ul class="list-inline-dot">
 									<li>GitHub</li>
@@ -124,8 +142,8 @@
 							</div> -->
 							<div class="col-12 col-lg-12">
 								<h6 class="sm-heading">Experience</h6>
-								<h3 class="fw-light mb-0 line-height-110"><b>Growup Business Solution</b> </br> April 2023 - Jan 2024</h3> </br>
-								<h3 class="fw-light mb-0 line-height-110"><b>Brandism Technologies</b> </br> Jan 2024 - Present</h3>
+								<h3 class="fw-light mb-0 line-height-110"><b>Growup Business Solution</b> <br> April 2023 - Jan 2024</h3> <br>
+								<h3 class="fw-light mb-0 line-height-110"><b>Brandism Technologies</b> <br> Jan 2024 - Present</h3>
 							</div>
 							<div class="col-12 col-md-4 col-lg-12">
 								<h6 class="sm-heading">Connect</h6>
@@ -224,9 +242,9 @@
 				<div class="section-sm pf-bg border-radius-1">
 					<div class="container">
 						<div class="row">
-							<div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+							<div class="col-12">
 								<span class="title-heading text-white-04">Portfolio</span>
-								<h1 class="display-3 fw-medium">Complate <span class="text-gradient">Projects</span></h1>
+								<h1 class="display-3 fw-medium">Completed <span class="text-gradient">Projects</span></h1>
 								<!-- Slider Nav -->
 								<div class="mt-4">
 									<div class="swiper-portfolio-prev button-circle cursor-link">
@@ -243,107 +261,113 @@
 						</div><!-- end row -->
 						<div class="swiper portfolio-slider mt-4 mt-lg-5">
 							<div class="swiper-wrapper">
-								<!-- Slider Item 6 -->
+								<!-- Project 1: GFresh Ice Cream -->
 								<div class="swiper-slide">
-									<div class="portfolio-box">
-										<!-- Image -->
-										<div class="portfolio-img">
-											<a href="https://afrikabanque.sn/" target="_blank">
-												<img src="assets/images/Untitled design.png" alt="">
-											</a>
+									<article class="portfolio-box">
+										<a class="portfolio-img" href="https://gfresh.in/" target="_blank" rel="noopener">
+											<span class="browser-bar"><i></i><i></i><i></i><em>gfresh.in</em></span>
+											<img src="assets/images/project-gfresh.jpg" alt="GFresh Ice Cream website homepage" loading="lazy">
+											<span class="portfolio-visit">Visit site <i class="bi bi-arrow-up-right"></i></span>
+										</a>
+										<div class="portfolio-meta">
+											<span class="portfolio-index">01</span>
+											<div>
+												<h2><a class="portfolio-caption" href="https://gfresh.in/" target="_blank" rel="noopener">GFresh Ice Cream</a></h2>
+												<p class="portfolio-tag">Ice Cream Brand · India</p>
+											</div>
+											<a class="portfolio-arrow" href="https://gfresh.in/" target="_blank" rel="noopener" aria-label="Open GFresh Ice Cream"><i class="bi bi-arrow-up-right"></i></a>
 										</div>
-										<div class="pt-4">
-											<!-- Caption -->
-											<h2>
-												<a class="portfolio-caption" href="https://afrikabanque.sn/" target="_blank">
-													<i class="bi bi-arrow-right"></i>
-													Afrika Banque
-												</a>
-											</h2>
-										</div>
-									</div><!-- end portfolio-box -->
+									</article>
 								</div>
-								<!-- end Slider Item 6 -->
-								 <!-- Slider Item 1 -->
+								<!-- Project 2: Itolec Surfaces -->
 								<div class="swiper-slide">
-									<div class="portfolio-box">
-										<!-- Image -->
-										<div class="portfolio-img">
-											<a href="https://forensiccybertech.com/" target="_blank">
-												<img src="assets/images/p5.png" alt="">
-											</a>
+									<article class="portfolio-box">
+										<a class="portfolio-img" href="https://itolecsurfaces.com/" target="_blank" rel="noopener">
+											<span class="browser-bar"><i></i><i></i><i></i><em>itolecsurfaces.com</em></span>
+											<img src="assets/images/project-itolec.jpg" alt="Itolec Surfaces website homepage" loading="lazy">
+											<span class="portfolio-visit">Visit site <i class="bi bi-arrow-up-right"></i></span>
+										</a>
+										<div class="portfolio-meta">
+											<span class="portfolio-index">02</span>
+											<div>
+												<h2><a class="portfolio-caption" href="https://itolecsurfaces.com/" target="_blank" rel="noopener">Itolec Surfaces</a></h2>
+												<p class="portfolio-tag">Porcelain Slab Manufacturer</p>
+											</div>
+											<a class="portfolio-arrow" href="https://itolecsurfaces.com/" target="_blank" rel="noopener" aria-label="Open Itolec Surfaces"><i class="bi bi-arrow-up-right"></i></a>
 										</div>
-										<div class="pt-4">
-											<!-- Caption -->
-											<h2>
-												<a class="portfolio-caption" href="https://forensiccybertech.com/" target="_blank">
-													<i class="bi bi-arrow-right"></i>
-													Forensic Cybertech
-												</a>
-											</h2>
-										</div>
-									</div><!-- end portfolio-box -->
+									</article>
 								</div>
-								 <!-- Slider Item 5 -->
-								 <div class="swiper-slide">
-									<div class="portfolio-box">
-										<!-- Image -->
-										<div class="portfolio-img">
-											<a href="https://sabuildinggroup.com.au/" target="_blank">
-												<img src="assets/images/p4.png" alt="">
-											</a>
-										</div>
-										<div class="pt-4">
-											<!-- Caption -->
-											<h2>
-												<a class="portfolio-caption" href="https://sabuildinggroup.com.au/" target="_blank">
-													<i class="bi bi-arrow-right"></i>
-													SA Building Group
-												</a>
-											</h2>
-										</div>
-									</div><!-- end portfolio-box -->
-								</div>
-								<!-- end Slider Item 5 -->
-								<!-- Slider Item 2 -->
+								<!-- Project 3: Cosmozdrip -->
 								<div class="swiper-slide">
-									<div class="portfolio-box">
-										<!-- Image -->
-										<div class="portfolio-img">
-											<a href="https://jkmpcl.com/" target="_blank">
-												<img src="assets/images/p3.png" alt="">
-											</a>
+									<article class="portfolio-box">
+										<a class="portfolio-img" href="https://cosmozdrip.com/" target="_blank" rel="noopener">
+											<span class="browser-bar"><i></i><i></i><i></i><em>cosmozdrip.com</em></span>
+											<img src="assets/images/project-cosmozdrip.jpg" alt="Cosmozdrip website homepage" loading="lazy">
+											<span class="portfolio-visit">Visit site <i class="bi bi-arrow-up-right"></i></span>
+										</a>
+										<div class="portfolio-meta">
+											<span class="portfolio-index">03</span>
+											<div>
+												<h2><a class="portfolio-caption" href="https://cosmozdrip.com/" target="_blank" rel="noopener">Cosmozdrip</a></h2>
+												<p class="portfolio-tag">Streetwear E-commerce · Shopify</p>
+											</div>
+											<a class="portfolio-arrow" href="https://cosmozdrip.com/" target="_blank" rel="noopener" aria-label="Open Cosmozdrip"><i class="bi bi-arrow-up-right"></i></a>
 										</div>
-										<div class="pt-4">
-											<!-- Caption -->
-											<h2>
-												<a class="portfolio-caption" href="https://jkmpcl.com/" target="_blank">
-													<i class="bi bi-arrow-right"></i>
-													(JKMPCL) Jammu & Kashmir Milk Producers Co-operative Ltd
-												</a>
-											</h2>
-										</div>
-									</div><!-- end portfolio-box -->
+									</article>
 								</div>
-								<!-- Slider Item 3 -->
+								<!-- Project 4: Optimount -->
 								<div class="swiper-slide">
-									<div class="portfolio-box">
-										<!-- Image -->
-										<div class="portfolio-img">
-											<a href="https://tattvavid.com/" target="_blank">
-												<img src="assets/images/p1.png" alt="">
-											</a>
+									<article class="portfolio-box">
+										<a class="portfolio-img" href="https://optimount.com.au/" target="_blank" rel="noopener">
+											<span class="browser-bar"><i></i><i></i><i></i><em>optimount.com.au</em></span>
+											<img src="assets/images/project-optimount.jpg" alt="Optimount website homepage" loading="lazy">
+											<span class="portfolio-visit">Visit site <i class="bi bi-arrow-up-right"></i></span>
+										</a>
+										<div class="portfolio-meta">
+											<span class="portfolio-index">04</span>
+											<div>
+												<h2><a class="portfolio-caption" href="https://optimount.com.au/" target="_blank" rel="noopener">Optimount</a></h2>
+												<p class="portfolio-tag">Solar Cable Tray Systems · Australia</p>
+											</div>
+											<a class="portfolio-arrow" href="https://optimount.com.au/" target="_blank" rel="noopener" aria-label="Open Optimount"><i class="bi bi-arrow-up-right"></i></a>
 										</div>
-										<div class="pt-4">
-											<!-- Caption -->
-											<h2>
-												<a class="portfolio-caption" href="https://tattvavid.com/" target="_blank">
-													<i class="bi bi-arrow-right"></i>
-													Tattvavid Technologies
-												</a>
-											</h2>
+									</article>
+								</div>
+								<!-- Project 5: Afrika Banque -->
+								<div class="swiper-slide">
+									<article class="portfolio-box">
+										<a class="portfolio-img" href="https://afrikabanque.sn/" target="_blank" rel="noopener">
+											<span class="browser-bar"><i></i><i></i><i></i><em>afrikabanque.sn</em></span>
+											<img src="assets/images/project-afrikabanque.png" alt="Afrika Banque website homepage" loading="lazy">
+											<span class="portfolio-visit">Visit site <i class="bi bi-arrow-up-right"></i></span>
+										</a>
+										<div class="portfolio-meta">
+											<span class="portfolio-index">05</span>
+											<div>
+												<h2><a class="portfolio-caption" href="https://afrikabanque.sn/" target="_blank" rel="noopener">Afrika Banque</a></h2>
+												<p class="portfolio-tag">Banking · Senegal</p>
+											</div>
+											<a class="portfolio-arrow" href="https://afrikabanque.sn/" target="_blank" rel="noopener" aria-label="Open Afrika Banque"><i class="bi bi-arrow-up-right"></i></a>
 										</div>
-									</div><!-- end portfolio-box -->
+									</article>
+								</div>
+								<!-- Project 6: JKMPCL -->
+								<div class="swiper-slide">
+									<article class="portfolio-box">
+										<a class="portfolio-img" href="https://jkmpcl.com/" target="_blank" rel="noopener">
+											<span class="browser-bar"><i></i><i></i><i></i><em>jkmpcl.com</em></span>
+											<img src="assets/images/project-jkmpcl.png" alt="JKMPCL website homepage" loading="lazy">
+											<span class="portfolio-visit">Visit site <i class="bi bi-arrow-up-right"></i></span>
+										</a>
+										<div class="portfolio-meta">
+											<span class="portfolio-index">06</span>
+											<div>
+												<h2><a class="portfolio-caption" href="https://jkmpcl.com/" target="_blank" rel="noopener">JKMPCL</a></h2>
+												<p class="portfolio-tag">Jammu &amp; Kashmir Milk Producers Co-operative Ltd</p>
+											</div>
+											<a class="portfolio-arrow" href="https://jkmpcl.com/" target="_blank" rel="noopener" aria-label="Open JKMPCL"><i class="bi bi-arrow-up-right"></i></a>
+										</div>
+									</article>
 								</div>
 							</div><!-- end swiper-wrapper -->
 						</div><!-- end portfolio-slider -->
@@ -356,7 +380,7 @@
 			 <section id="design" class="section">
 			 <div class="container">
 				<div class="row">
-					<div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+					<div class="col-12">
 						<span class="title-heading text-white-04">Design</span>
 						<h1 class="display-3 fw-medium">Make <span class="text-gradient">Logos</span></h1>
 						<!-- end Slider Nav -->
@@ -437,11 +461,22 @@
 					<div class="row g-4 g-xl-5">
 						<div class="col-12 col-xl-12 text-center">
 							<span class="title-heading text-white-04">Contact</span>
-							<h1 class="display-3 fw-medium mb-0">Let's <span class="text-gradient">Talk</span></h1><br>
-							<div class="row g-4 g-lg-5 cl-prt">
-								<div>
-									<h3 class="mb-0">Email : <a href="mailto:jaydipbhut08@gmail.com">jaydipbhut08@gmail.com</a></h3><br>
-									<h3 class="mb-0">Call : <a href="tel:917046560063" class="white-clr">+91 70465 60063</a></h3>
+							<h2 class="display-3 fw-medium mb-0">Let's <span class="text-gradient">Talk</span></h2>
+							<p class="contact-lead">Have a project in mind? Drop a message — I usually reply within a day.</p>
+							<div class="row g-3 g-lg-4 cl-prt justify-content-center">
+								<div class="col-12 col-md-6 col-lg-5">
+									<a class="contact-card" href="mailto:jaydipbhut08@gmail.com">
+										<span class="contact-icon"><i class="bi bi-envelope"></i></span>
+										<span><small>Email</small><strong>jaydipbhut08@gmail.com</strong></span>
+										<i class="bi bi-arrow-up-right contact-go"></i>
+									</a>
+								</div>
+								<div class="col-12 col-md-6 col-lg-5">
+									<a class="contact-card" href="tel:+917046560063">
+										<span class="contact-icon"><i class="bi bi-telephone"></i></span>
+										<span><small>Call</small><strong>+91 70465 60063</strong></span>
+										<i class="bi bi-arrow-up-right contact-go"></i>
+									</a>
 								</div>
 							</div><!-- end row(inner) -->
 						</div>
@@ -452,6 +487,14 @@
 			</div>
 			<!-- end Contact section -->
 		</main>
+
+		<!-- Footer -->
+		<footer class="site-footer">
+			<div class="container">
+				<p>&copy; <span id="year">2026</span> Jaydip Bhut. All rights reserved.</p>
+				<a href="#about" class="footer-top">Back to top <i class="bi bi-arrow-up"></i></a>
+			</div>
+		</footer>
 
 		<!-- Scroll To Top -->
 		<div class="scrolltotop">
@@ -466,5 +509,28 @@
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/plugins.js"></script>
 		<script src="assets/js/functions.min.js"></script>
+		<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+		<!-- Custom cursor: neon dot + trailing ring -->
+		<script>
+		(function(){
+			if(!matchMedia("(pointer:fine) and (min-width:992px)").matches) return;
+			var dot=document.createElement("div"),ring=document.createElement("div");
+			dot.className="cur-dot";ring.className="cur-ring";
+			document.body.append(dot,ring);document.documentElement.classList.add("has-cursor");
+			var reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+			var x=innerWidth/2,y=innerHeight/2,rx=x,ry=y,shown=false;
+			addEventListener("mousemove",function(e){x=e.clientX;y=e.clientY;
+				if(!shown){shown=true;rx=x;ry=y;document.documentElement.classList.add("cursor-on");}
+				dot.style.transform="translate3d("+x+"px,"+y+"px,0)";});
+			document.addEventListener("mouseleave",function(){document.documentElement.classList.remove("cursor-on");shown=false;});
+			addEventListener("mousedown",function(){ring.classList.add("press");});
+			addEventListener("mouseup",function(){ring.classList.remove("press");});
+			document.addEventListener("mouseover",function(e){
+				var hit=e.target.closest("a,button,.cursor-link,.swiper-slide");
+				ring.classList.toggle("hover",!!hit);dot.classList.toggle("hover",!!hit);});
+			(function loop(){var k=reduce?1:0.18;rx+=(x-rx)*k;ry+=(y-ry)*k;
+				ring.style.transform="translate3d("+rx+"px,"+ry+"px,0)";requestAnimationFrame(loop);})();
+		})();
+		</script>
 	</body>
 </html>
